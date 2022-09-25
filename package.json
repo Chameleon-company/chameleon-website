@@ -10,7 +10,11 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "start": "^5.1.0",
+=======
+    "rsuite": "^5.18.1",
+>>>>>>> e551b40afbe4ef399c5aed1f47a9fa78d50f2c89
     "web-vitals": "^2.1.4"
   },
   "scripts": {
