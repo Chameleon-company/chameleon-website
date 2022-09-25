@@ -1,15 +1,27 @@
 import React from 'react'
-import Card from '../../components/card/Card';
+import Heading from '../../components/heading/Heading';
 import Contacts from '../../data/servicesData';
+import Services from "./components/Services";
+
+import './components/services_Images.css'
 
 function createCard(contact){
-  
+  return <Services
+  key ={contact.id}
+  link={contact.imgURL}
+  name={contact.name}
+  />
 }
 
 function OurServices() {
   return (
-    <div>OurServices</div>
+    <div>
+      <Heading name="Our Services"/>
+      <div className='row'>
+      {Contacts.map(createCard)}</div>
+    </div>
+
   )
 }
 
-export default OurServices
+export default OurServices;

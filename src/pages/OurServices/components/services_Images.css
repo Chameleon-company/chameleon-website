@@ -1,0 +1,18 @@
+.row{
+    display:flex;
+    flex-wrap: nowrap;
+    padding:0 4px;
+}
+.flex-container{
+    max-width:15%;
+    text-align:center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.flex-container img{
+    width:100%;
+    height:auto;
+}
+
